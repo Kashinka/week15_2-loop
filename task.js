@@ -55,3 +55,12 @@
 // 'John'
 // 'Alice'
 // 'Bob'
+
+// Задание 5. Выведите в консоль каждую букву строки
+
+let str = 'cold';
+
+for (symbol of str) {
+  console.log(symbol);
+}
+// "c" "o" "l" "d"
