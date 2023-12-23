@@ -44,11 +44,11 @@
 
 //Напишите цикл для вывода каждого имени из массива userNames на отдельной строке, используя цикл for...of
 
-const userNames = ['John', 'Alice', 'Bob'];
+// const userNames = ['John', 'Alice', 'Bob'];
 
-for (let userName of userNames) {
-    console.log(userName);
-}
+// for (let userName of userNames) {
+//     console.log(userName);
+// }
 
 
 // Вывод:
