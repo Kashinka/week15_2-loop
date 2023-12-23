@@ -30,3 +30,14 @@
 //     btn.addEventListener("click", function(){
 //     total.innerHTML= 'Выбрано элементов: ' + howMany(document.selectForm.musicTypes);
 // });
+
+// Напишите цикл for, который будет обходить массив userNames и для каждого имени преобразовывать его к нижнему регистру с помощью метода toLowerCase(). Затем замените значение элемента в массиве на изменённую версию имени.
+
+const userNames = ['John', 'Jane', 'Alex', 'Mike'];
+
+for (let i = 0; i < userNames.length; i++) {
+    userNames.forEach((s, i, arr) => arr[i] = s.toLowerCase());//Преобразуйте имена к нижнему регистру
+  //Замените значения элемента в массиве
+}
+
+console.log(userNames);
